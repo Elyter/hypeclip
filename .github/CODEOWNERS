@@ -5,8 +5,8 @@
 /apps/detection-service/   @smaintos @raphh1
 /apps/clip-service/        @raphh1 @smaintos
 /apps/job-runner/          @raphh1 @smaintos
-/apps/gateway/             @Elyter @cesarvictor
-/apps/gateway/src/realtime/ @cesarvictor @Elyter
+/apps/gateway/             @cesarvictor @Elyter
+/apps/user-service/        @Elyter @cesarvictor
 /apps/front/               @cesarvictor @Elyter
 
 /packages/contracts/       @smaintos @raphh1 @cesarvictor @Elyter
@@ -14,6 +14,7 @@
 /packages/eslint/          @smaintos @Elyter
 /packages/tsconfig/        @smaintos @Elyter
 /packages/twitch/          @raphh1 @smaintos
+/packages/auth/            @Elyter @cesarvictor
 /packages/observability/   @Elyter @cesarvictor
 
 /infra/                    @Elyter @cesarvictor
