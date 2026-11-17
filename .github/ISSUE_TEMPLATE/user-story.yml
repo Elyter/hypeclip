@@ -1,0 +1,27 @@
+name: User story
+description: Une fonctionnalité vue par un utilisateur
+title: "USxx · "
+labels: ["user-story"]
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: Story
+      description: "En tant que …, je … (afin de …)"
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Critères d'acceptation
+      description: Une case par critère vérifiable.
+      value: |
+        - [ ]
+    validations:
+      required: true
+  - type: input
+    id: owner
+    attributes:
+      label: Responsable
+    validations:
+      required: true

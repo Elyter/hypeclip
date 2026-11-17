@@ -1,0 +1,23 @@
+name: Bug
+description: Un comportement qui ne correspond pas à ce qui est attendu
+labels: ["bug"]
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes pour reproduire
+      value: |
+        1.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Attendu et obtenu
+    validations:
+      required: true
+  - type: input
+    id: scope
+    attributes:
+      label: Service concerné
+      description: gateway, ingestion, detection, clip, jobs, front, infra

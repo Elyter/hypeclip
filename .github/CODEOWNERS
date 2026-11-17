@@ -1,0 +1,26 @@
+# Propriétaire en premier, relecteur désigné ensuite (voir le document de cadrage).
+# William = @smaintos, César = @cesarvictor, Raph = @raphh1, Eliott = @Elyter
+
+/apps/ingestion-service/   @smaintos @raphh1
+/apps/detection-service/   @smaintos @raphh1
+/apps/clip-service/        @raphh1 @smaintos
+/apps/job-runner/          @raphh1 @smaintos
+/apps/gateway/             @Elyter @cesarvictor
+/apps/gateway/src/realtime/ @cesarvictor @Elyter
+/apps/front/               @cesarvictor @Elyter
+
+/packages/contracts/       @smaintos @raphh1 @cesarvictor @Elyter
+/packages/redis-keys/      @smaintos @raphh1 @cesarvictor @Elyter
+/packages/eslint/          @smaintos @Elyter
+/packages/tsconfig/        @smaintos @Elyter
+/packages/twitch/          @raphh1 @smaintos
+/packages/observability/   @Elyter @cesarvictor
+
+/infra/                    @Elyter @cesarvictor
+/docker-compose.yml        @Elyter @cesarvictor
+/Dockerfile                @Elyter @cesarvictor
+/.github/                  @Elyter @smaintos
+
+/docs/architecture.md      @smaintos @raphh1 @cesarvictor @Elyter
+/docs/adr/                 @smaintos @raphh1 @cesarvictor @Elyter
+/README.md                 @cesarvictor @raphh1
